@@ -1,0 +1,71 @@
+body {background-image: linear-gradient(to bottom left, #9bf4f7, #3f5c94 );
+    font-family: "Comic Sans MS", "Comic Sans", "cursive";
+}
+
+header {
+display: flex;
+flex-direction: row;    
+justify-content: space-around;
+align-items: center;
+}
+
+#nome {
+    flex-direction: column;
+    width: 5%;
+    height: 10%;
+    opacity: 1;
+    
+}
+li {
+  display: inline-block;
+  margin: 20px;
+}
+
+a {
+ color: white;
+ border: 2px solid rgb(255, 255, 255);
+ padding: 5px;
+ border-radius: 25px;
+}
+a:hover{
+background-color: rgb(255, 11, 194); 
+color: rgb(250, 248, 249);
+transition:0.5s all;
+ 
+
+}
+
+img {  
+  background-image: url('./banner3.png');
+  background-repeat: no-repeat;
+  background-position: top;
+  opacity: 0.6;
+  width: 100%;
+}
+
+h1 {
+  font-weight: 200;
+  font-family: "URW Chancery L", "cursive";
+  
+}
+
+h2 {
+  font-family: "DejaVu Sans Mono", "monospace";
+  font-size: 39px;
+  color: white;
+  letter-spacing: 2;
+  text-align: center;
+}
+
+p {
+    justify-content: flex;
+   margin-left: auto;
+   margin-right: auto;
+   width: 40em;
+    line-height: 30px;
+    max-width: 1000px;
+    letter-spacing: 1px;
+    font-size: 25px;
+    font-family: "Comic Sans MS", "Comic Sans", "cursive";
+    color:white;
+}
